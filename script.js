@@ -27,9 +27,9 @@ function validateForm(event) {
   // Handle promise resolution and rejection
   formPromise
     .then(function (name) {
-      alert("Welcome, " + name + ". You can vote.");
+      alert(`Welcome, ${name}. You can vote.`);
     })
     .catch(function (name) {
-      alert("Oh sorry " + name + ". You aren't old enough.");
+      alert(`Oh sorry ${name}. You aren't old enough.`);
     });
 }
