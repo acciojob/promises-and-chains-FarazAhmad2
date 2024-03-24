@@ -9,7 +9,7 @@ function validateForm(event) {
 
   // Validate inputs
   if (name.trim() === "" || isNaN(age)) {
-    alert("'Please enter valid details");
+    alert("Please enter valid details");
     return false;
   }
 
